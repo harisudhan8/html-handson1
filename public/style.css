@@ -1,103 +1,65 @@
-#titleImage{
-    margin-top: 0;
-    margin-left: 0;
-    width:1500px;
-    height:725px;
-   }
-   #titleName{
-    position: absolute;
-   top: 40%;
-   left:35%;
-   color: rgb(255, 255, 255);
-
-   }
-   #favFood1{
-    color: white;
-   }
-   
-.one {
-   background-color: rgb(73, 146, 0);
-   width:1500px;
-    height:725px;
-    
+*{
+    box-sizing: border-box;
 }
-#favFood1 {
-    padding: 20px;
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+.section1{
+    height: 70rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.section1 img{
+    width: 70%;
+    height: 70rem;
+    justify-content: right;
+}
+.section1 div{
+    width: 30%;
+    height: 70rem;
+    background-color: white;
+    color: black;
     text-align: center;
-    font-style: italic;
-    font-size: larger;
+    margin: 25rem auto;
 }
-#foodDescription {
-    text-align: center;
-    font-style: italic;
-    font-size: large;
-    color: white;
+.section1 div a{
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
 }
-#favFoodImage1{
-    position:relative;
-    top: 0px;
-    left: 350px;
-    border: 5px solid white;
-    height: 500px;
-    padding:10px ;
-       
-
+.section1 div h1{
+    font-size: xxx-large;
 }
-.two {
-   background-color: rgb(127, 0, 146);
-   width:1500px;
-    height:725px;
-    
-}
-#favFood2 {
-    padding: px;
-    text-align: center;
-    font-style: italic;
-    font-size: larger;
-    color: white;
+.section1 div h2{
+    margin: -40px 0px 40px 0px;
+    color: gray;
 }
 
-#foodDescription2 {
+.section2{
+    display: block;
     text-align: center;
-    font-style: italic;
-    font-size: large;
+}
+.section2 h1{
+    background:rgb(49, 49, 49);
     color: white;
+    padding: 2rem;
+    margin: 0px;
+    margin-top: 1rem;
 }
-#favFoodImage2{
-    position:relative;
-    top: 0px;
-    left: 250px;
-    border: 5px solid white;
-    height: 500px;
-    padding:10px ;
-           
-
+.section2 img{
+    margin: 0px;
+    width: 100%;
 }
-.thi {
-   background-color: rgb(73, 146, 0);
-   width:1500px;
-    height:725px;
-    
-}
-#favFood3 {
-    padding: 20px;
+.section2 p{
+    background: rgb(180, 180, 180);
+    padding: 1.5rem;
     text-align: center;
-    font-style: italic;
-    font-size: larger;
-    color:white;
+    margin: 0px;
+    margin-bottom: 1rem;
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
 }
-#foodDescription3 {
-    text-align: center;
-    font-style: italic;
-    font-size: large;
-    color: white;
-}
-#favFoodImage3{
-    position:relative;
-    top: 0px;
-    left: 350px;
-    border: 5px solid white;
-    height: 500px;
-    padding:10px ;}
-           
-
